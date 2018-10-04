@@ -1,10 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
-tap "homebrew/dupes"
 tap "homebrew/services"
-tap "homebrew/versions"
-cask "xquartz"
 brew "ack"
 brew "aria2"
 brew "automake"
@@ -12,7 +9,6 @@ brew "chromaprint"
 brew "cmake"
 brew "dnsmasq"
 brew "docker-machine", link: false
-brew "emacs", args: ["with-cocoa"], link: false
 brew "faad2"
 brew "lame"
 brew "ffmpeg"
@@ -65,6 +61,7 @@ cask "tabula"
 cask "vagrant"
 cask "virtualbox"
 cask "vlc"
+cask "xquartz"
 mas "Alfred", id: 405843582
 mas "App School for Xcode and  iOS 10 Development Free", id: 1163893338
 mas "Apple Configurator", id: 434433123
@@ -75,7 +72,6 @@ mas "Evernote", id: 406056744
 mas "feedly", id: 865500966
 mas "iBooks Author", id: 490152466
 mas "iMovie", id: 408981434
-mas "Install macOS High Sierra", id: 0
 mas "iPhoto", id: 408981381
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
@@ -87,4 +83,3 @@ mas "Pocket", id: 568494494
 mas "Skitch", id: 425955336
 mas "Twitter", id: 409789998
 mas "WMA to Any Lite", id: 897544510
-mas "Xcode", id: 497799835
