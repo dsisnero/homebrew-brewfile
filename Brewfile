@@ -11,6 +11,7 @@ brew "cmake"
 brew "dnsmasq"
 brew "docker-machine", link: false
 brew "faad2"
+brew "fd"
 brew "lame"
 brew "ffmpeg"
 brew "findutils"
